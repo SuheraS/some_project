@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Stop Shop - Contact</title>
+  <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+  <div class="contact-container">
+    <header class="contact-header">
+      <h1>One Stop Shop</h1>
+      <h2>Contact Us</h2>
+    </header>
+    <div class="contact-info">
+      <div class="card">
+        <h3>Call Us</h3>
+        <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+      </div>
+      <div class="card">
+        <h3>Email Us</h3>
+        <p><a href="mailto:support@onestopshop.com">support@onestopshop.com</a></p>
+      </div>
+      <div class="card">
+        <h3>Visit Us</h3>
+        <p>123 Main Street, Anytown, CA 90210</p>
+        <a href="#">Get Directions</a>
+      </div>
+    </div>
+    <form class="contact-form" onsubmit="return validateForm()">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required >
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    
+  </div><hr><div>
+  Get back to home page <br>
+  <button> <a href="home.html" >HOME</a></button> </div>
+</body>
+</html>

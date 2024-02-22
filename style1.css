@@ -1,0 +1,151 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #aea9a9; /* Light gray background */
+  }
+  
+  header {
+    background-image: url(Gemini_Generated_Image5.jpg);
+   background-color: hsl(44, 94%, 58%);
+    color: #0b0a0a; /* White text */
+    padding: 20px;
+    font-weight: 800;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  big{
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-size: 20px;
+    
+  }
+  nav a:hover{
+    background-color: hsla(0, 3%, 67%, 0.512);
+
+  }
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+    float: left;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    display: block;
+  }
+  
+  main {
+    padding: 50px;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    margin-bottom: 20px;
+  }
+  
+  .hero button{
+    background-color: #2271b1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-card {
+    width: 25%;
+    margin: 10px;
+    border: 2px solid rgb(2251, 192, 41);
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(251, 192, 41);
+    border-radius: 8px;
+  }
+
+  .product-card a:hover{
+    background-color:  rgba(88, 71, 29, 0.518);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .product-card p {
+    margin-bottom: 10px;
+  }
+  
+  .product-card a {
+    background-color: #e3c986;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  
+  }
+  .navigation{
+    text-align: center;
+    display: inline-block;
+    
+    
+}
+
+.navigation a{
+    
+    color: rgb(14, 14, 14);
+    text-decoration: none;
+    
+    border-radius: 8px;
+    padding:8px 16px;
+    
+}
+
+.navigation a.active{
+    border-radius: 8px;
+    background-color:#e3c986;;
+}
+
+.navigation a:hover:not(.active){
+    background-color:gray;
+    border-radius: 8px;
+}
+
+footer{
+    background-color:rgb(254, 199, 82); /* Dark blue header */
+    color: #fff; /* White text */
+    padding: 20px;
+}
